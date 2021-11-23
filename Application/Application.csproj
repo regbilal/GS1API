@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Version>1.1.0</Version>
+	<LangVersion>latest</LangVersion>
+	<AssemblyName>Application</AssemblyName>
+	<RootNamespace>Core.Application</RootNamespace>
+  </PropertyGroup>
+<ItemGroup>
+  <PackageReference Include="AutoMapper" Version="10.1.1" />
+  <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+  <PackageReference Include="FluentValidation" Version="9.1.2" />
+  <PackageReference Include="FluentValidation.AspNetCore" Version="9.1.2" />
+  <PackageReference Include="MediatR" Version="9.0.0" />
+  <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.18" />
+  <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.7" />
+  <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.7" />
+  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.7" />
+  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.7">
+    <PrivateAssets>all</PrivateAssets>
+    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+  </PackageReference>
+  <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="3.1.13" />
+  <PackageReference Include="microsoft.extensions.dependencyinjection" Version="3.1.7" />
+  <PackageReference Include="MimeKit" Version="2.9.1" />
+  <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.7" />
+  <PackageReference Include="NETCore.MailKit" Version="2.0.3" />
+  <PackageReference Include="RestSharp" Version="106.13.0" />
+  <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.7.1" />
+  <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="3.1.7" />
+  </ItemGroup>
+</Project>
