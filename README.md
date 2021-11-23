@@ -8,8 +8,8 @@ GS1 Keyword Dictionary
 4. run the application 
 
 I have seeded some testing data so that you can test the app :
-AdminUser creds : superadmin@gmail.com / 123Pa$$word!
-BasicUser creds : basicuser@gmail.com / 123Pa$$word!
+- AdminUser creds : superadmin@gmail.com / 123Pa$$word!
+- BasicUser creds : basicuser@gmail.com / 123Pa$$word!
 
 You can use those credentials to get the JWT token that you can use to consume the other sucured api endpoints.
 
